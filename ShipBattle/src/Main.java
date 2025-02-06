@@ -52,7 +52,7 @@ public class Main {
                     System.out.println("Please enter valid numbers.");
                 }
             } else {
-                System.out.println("Please enter two numbers separated by a space.");
+                System.out.println("Please enter two numbers.");
             }
         }
 
