@@ -1,13 +1,15 @@
 import java.util.Arrays;
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
 
         boolean running = true;
-        int number=(int)(Math.random() * 101);
+        Random rand = new Random();
+        int number=rand.nextInt(101);
         String name;
-        System.out.println("Please enter your name:");
+        System.out.print("Please enter your name:");
         Scanner sc = new Scanner(System.in);
         name = sc.nextLine();
         System.out.println("Let the game begin!");
