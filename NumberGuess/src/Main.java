@@ -41,7 +41,7 @@ public class Main {
         }
         System.out.println("Your numbers: ");
         Arrays.sort(numbers);
-        for(int i=0; i<counter; i++){
+        for(int i=counter-1; i>=0; i--){
             System.out.print(numbers[i]+" ");
         }
 
